@@ -1,0 +1,45 @@
+body{
+    height: 100%;
+    font-family: 'Peralta', cursive;
+
+}
+
+.hero-banner{
+    background-image: url(./Img/background.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 50%;
+    
+}
+
+.texto{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+
+.btn-1{
+    color: black;
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    border: solid 1px white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.btn-1:hover{
+    border: solid 5px black;
+    color: white;
+    background-color: black;
+}
+
